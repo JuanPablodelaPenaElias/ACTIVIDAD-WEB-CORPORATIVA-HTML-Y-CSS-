@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('fonts/tu-fuente.woff2') format('woff2'),
+         url('fonts/tu-fuente.woff') format('woff');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Establecer fondo de pantalla */
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+    
+    
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    max-width: 700px; /* Ajustar el ancho */
+    height: 300px; /* Ajustar la altura */
+    border: 10px outset brown; /* Añadir borde */
+    border-radius: 22px; /* Redondear las esquinas */
+}
+
+.content p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #fcf8f8;
+}
+/* Establecer fondo de pantalla */
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+}
+
+/* Estilos para la imagen */
+.poster-image {
+    width: 700px; /* Tamaño de anchura */
+    height: 300px; /* Tamaño de altura */
+    border: 10px outset brown; /* Borde de 10px tipo outset y color brown */
+    border-radius: 22px; /* Esquinas redondeadas de 22px */
+}
+
+/* Estilos para el texto superpuesto */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay p {
+    font-size: 1.5em;
+    color: white; /* Color de texto blanco */
+}
+/* Estilos para las áreas mapeadas */
+area {
+    outline: 2px solid red; /* Resalta el contorno de las áreas mapeadas */
+}
+/* Estilos para las áreas mapeadas */
+area {
+    outline: 2px solid red; /* Resalta el contorno de las áreas mapeadas */
+}
+/* Cargar la fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('ruta/a/tu/archivo/font.woff2') format('woff2'),
+         url('ruta/a/tu/archivo/font.woff') format('woff');
+}
+
+/* Aplicar la fuente personalizada a todo el proyecto */
+body {
+    font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+}
+
+/* Otros estilos */
+/* ... */
+

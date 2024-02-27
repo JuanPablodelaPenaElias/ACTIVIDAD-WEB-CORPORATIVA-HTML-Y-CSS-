@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Agregar icono de la pestaña del navegador -->   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregar el enlace al favicon -->
+    <link rel="icon" href="icon.png"href="favicon.png"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>QueVeo - Breaking Bad</title>
+    <style>
+        /* Estilos para las áreas mapeadas */
+        area {
+            outline: 100px solid red; /* Resalta el contorno de las áreas mapeadas */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Breaking Bad Logo" usemap="#imagemap">
+        <!-- Mapa de imagen para mapear las áreas de las imágenes "Breaking" y "Bad" -->
+        <map name="imagemap">
+            <!-- Área para la imagen "Breaking" -->
+            <area shape="rect" coords="0,0,350,300" href="Formulario.html" alt="Breaking">
+            <!-- Área para la imagen "Bad" -->
+            <area shape="rect" coords="350,0,700,300" href="Tabla.html" alt="Bad">
+        </map>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="text-overlay">
+                <p>"I did it for me. I liked it. I was good at it. And, I was really... I was alive."</p>
+            </div>
+            <!-- Aquí asignamos la clase "poster-image" a la imagen -->
+            <img class="poster-image" src="poster.jpg" alt="Breaking Bad Poster">
+        </div>
+    </main>
+</body>
+</html>
